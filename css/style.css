@@ -1,23 +1,33 @@
 #items{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 40px;
+    grid-gap: 30px;
     width: 85%;
     margin: 0 auto;
 }
 #item-details{
+    display: none;
     margin: 25px auto;
     width: 30%;
     height: auto;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 15px gray;
-    display: none;
-  
+
 }
 .food-items{
+    text-align: center;
     border-radius: 10px;
     box-shadow: 2px 2px 15px gray;
-    padding: 12px;
-    width: 260px;
+}
+
+.food-items h4{
+    padding: 15px;
+}
+.food-items:hover{
+    box-shadow: 5px 5px 20px tomato;
+}
+.top-nav{
+    font-weight: 600;
+    background-color:whitesmoke;
 }

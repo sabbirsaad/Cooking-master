@@ -11,19 +11,44 @@
 </head>
 
 <body>
+    <header>
+        <nav class="top-nav navbar navbar-light navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">Cooking-master</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#Product">About</a>
+                        <a class="nav-link" href="#About-us">Recipes</a>
+                        <a class="nav-link" href="#Contact-us">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<section>
     <div class="container">
-        <form class="col-md-6 py-5  m-auto ">
+        <form class="col-md-6 py-5  m-auto">
             <div class="input-group">
-                <input id="input-item" type="text" class="form-control" placeholder="Search for meal...">
+                <input  id="input-item" type="text" class="form-control" placeholder=" Search for meal...">
                 <div class="input-group-append">
                     <button id="search-item" type="button" class="btn btn-success">Search</button>
                 </div>
             </div>
         </form>
     </div>
+</section>
 
+<section>
     <div id="item-details"></div>
-    <div id="items" class="mt-5"></div>
+    <div id="items" class="my-5"></div>
+</section>
 
     <script src="js/app.js"></script>
     <script src="js/bootstrap.min.js"></script>
