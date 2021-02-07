@@ -1,0 +1,23 @@
+#items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+    width: 85%;
+    margin: 0 auto;
+}
+#item-details{
+    margin: 25px auto;
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px gray;
+    display: none;
+  
+}
+.food-items{
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px gray;
+    padding: 12px;
+    width: 260px;
+}
