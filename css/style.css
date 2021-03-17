@@ -17,16 +17,20 @@
 }
 .food-items{
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 2px 2px 15px gray;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px gray;
+    overflow: hidden;
 }
 
 .food-items h4{
     padding: 15px;
 }
 .food-items:hover{
-    box-shadow: 5px 5px 20px tomato;
+    box-shadow: 3px 3px 12px tomato;
+    transform:scale(1.05);
+    transition:ease-in-out .2s;         
 }
+
 .top-nav{
     font-weight: 600;
     background-color:whitesmoke;

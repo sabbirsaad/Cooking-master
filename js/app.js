@@ -29,7 +29,7 @@ const displayFoodItem = items =>{
         showFoodItems.className = "food-items";
 
         const foodInfo = `
-        <img class="img-fluid rounded" role="button" onclick="displayFoodDetails('${item.idMeal}')" src="${item.strMealThumb}"  alt=""> <br> <br>
+        <img class="img-fluid" role="button" onclick="displayFoodDetails('${item.idMeal}')" src="${item.strMealThumb}"  alt=""> <br> <br>
         <h4 role="button" onclick="displayFoodDetails('${item.idMeal}')">${item.strMeal}</h4>`;
 
         showFoodItems.innerHTML = foodInfo;
@@ -68,5 +68,9 @@ const foodDetails = foodItem => {
         }
     });
     itemDetails.appendChild(ul);
+
+    // document.getElementsByClassName(".refresh").addEventListener("click",()=>{
+    //     window.location.refresh();
+    // })
 
 }
